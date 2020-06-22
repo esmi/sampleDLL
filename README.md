@@ -4,7 +4,7 @@
 
 在 mingw 網站文件：
 <a href="http://www.mingw.org/wiki/sampleDLL">
-HOWTO Create and Deploy a Sample DLL using MinGW</a> 教我用mingw, 建置 DLL. 在Linux環境下, 測試需要使用"WINE"執行.
+HOWTO Create and Deploy a Sample DLL using MinGW</a>使用mingw, 建置 DLL. 在Linux環境下, 測試需要使用"WINE"執行.
 
 
 
@@ -27,4 +27,4 @@ HOWTO Create and Deploy a Sample DLL using MinGW</a> 教我用mingw, 建置 DLL.
     err:module:import_dll Library libgcc_s_sjlj-1.dll (which is needed by L"Z:\\home\\evan\\www\\www2\\sampleDLL\\example_exe2.exe") not found
 
 ```
-則編譯連結需以-static-libgcc 參數將 libgccㄋ 以靜態連結的方式編譯至"執行檔"中, 請參考<a href="https://www.qtcentre.org/threads/39639-MinGW-w64-dependency-on-LIBGCC_S_SJLJ-1-DLL">此處說明</a>
+則編譯連結需以-static-libgcc 參數將 libgcc以靜態連結的方式編譯至"執行檔"中, 請參考<a href="https://www.qtcentre.org/threads/39639-MinGW-w64-dependency-on-LIBGCC_S_SJLJ-1-DLL">此處說明</a>
