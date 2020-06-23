@@ -10,7 +10,7 @@ function showhelp() {
   cat <<EOF
 
   usage:
-  $0 yourCommand options...
+  $0 [ gcc | g++ ] options...
 
   #example:
     $ mingw.sh gcc --version
